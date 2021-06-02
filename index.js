@@ -1,5 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 require('dotenv').config();
+const bodyParser = require('body-parser');
 const express = require('express')
  
 const token = process.env.TELEGRAM_TOKEN;
@@ -21,6 +22,8 @@ bot.onText(/.*/, (msg, _) => {
 });
 
 const app = express();
+
+app.use(bodyParser.json());
 
 app.listen(process.env.PORT);
  
