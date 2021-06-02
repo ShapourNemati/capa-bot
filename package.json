@@ -1,0 +1,19 @@
+{
+  "name": "capa-bot",
+  "version": "0.1.0",
+  "description": "A telegram bot inspired to the italian singer Caparezza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShapourNemati/capa-bot.git"
+  },
+  "author": "Carmine Vattimo & Shapour Nemati",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ShapourNemati/capa-bot/issues"
+  },
+  "homepage": "https://github.com/ShapourNemati/capa-bot#readme"
+}
