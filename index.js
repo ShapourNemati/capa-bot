@@ -21,6 +21,12 @@ bot.onText(/.*/, (msg, _) => {
     bot.sendMessage(chatId, "Non ora signor giudice, sto giocando ai videogames!", { parse_mode: 'HTML' });
 });
 
+bot.on('message', (msg) => {
+   console.log('on message', msg)
+   const chatId = msg.chat.id
+   bot.sendMessage(chatId, 'Mi legano le mani, ma io scrivo con l\'uccello')
+})
+
 const app = express();
 
 app.use(bodyParser.json());
