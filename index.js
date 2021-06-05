@@ -24,9 +24,9 @@ bot.onText(/.*/, (msg, _) => {
 });
 
 bot.on('message', (msg) => {
-  console.log('on message', msg)
-  const chatId = msg.chat.id
-  bot.sendMessage(chatId, 'Mi legano le mani, ma io scrivo con l\'uccello')
+  console.log('on message', msg);
+  const chatId = msg.chat.id;
+  bot.sendMessage(chatId, 'Mi legano le mani, ma io scrivo con l\'uccello');
 });
 
 const app = express();
