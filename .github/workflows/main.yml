@@ -32,3 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: ESLint
         run: npx eslint .
+
+      - name: test
+        run: npx tap
