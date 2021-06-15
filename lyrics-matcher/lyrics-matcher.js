@@ -10,7 +10,6 @@ function buildMatcher(corpus) {
     for (const album in corpus.albums) {
       // eslint-disable-next-line guard-for-in
       for (const song in corpus.albums[album]) {
-        console.log(corpus.albums[album][song].lyrics);
         const lyricsLines = corpus.albums[album][song].lyrics.split('\n');
         // eslint-disable-next-line guard-for-in
         for (const line of lyricsLines) {
