@@ -4,7 +4,7 @@
   "description": "A telegram bot inspired to the italian singer Caparezza",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tap",
     "start": "node index.js"
   },
   "repository": {
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "eslint": "^7.28.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "tap": "^15.0.9"
   }
 }
