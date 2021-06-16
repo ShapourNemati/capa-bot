@@ -6,6 +6,7 @@
  */
 function buildMatcher(corpus) {
   return (text) => {
+    const noCommasText = text.replace(',', '');
     // eslint-disable-next-line guard-for-in
     for (const album in corpus.albums) {
       // eslint-disable-next-line guard-for-in
@@ -13,7 +14,8 @@ function buildMatcher(corpus) {
         const lyricsLines = corpus.albums[album][song].lyrics.split('\n');
         // eslint-disable-next-line guard-for-in
         for (const line of lyricsLines) {
-          if (text === line) {
+          const noCommasLine = line.replace(',', '');
+          if (noCommasText === noCommasLine) {
             return lyricsLines[lyricsLines.indexOf(line) + 1];
           }
         }
