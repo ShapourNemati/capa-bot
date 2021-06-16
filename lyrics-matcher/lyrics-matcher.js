@@ -6,7 +6,7 @@
  */
 function buildMatcher(corpus) {
   return (text) => {
-    const noCommasText = text.replace(',', '');
+    const noCommasText = text.replace(',', '').toLowerCase();
     // eslint-disable-next-line guard-for-in
     for (const album in corpus.albums) {
       // eslint-disable-next-line guard-for-in
@@ -14,7 +14,7 @@ function buildMatcher(corpus) {
         const lyricsLines = corpus.albums[album][song].lyrics.split('\n');
         // eslint-disable-next-line guard-for-in
         for (const line of lyricsLines) {
-          const noCommasLine = line.replace(',', '');
+          const noCommasLine = line.replace(',', '').toLowerCase();
           if (noCommasText === noCommasLine) {
             return lyricsLines[lyricsLines.indexOf(line) + 1];
           }
