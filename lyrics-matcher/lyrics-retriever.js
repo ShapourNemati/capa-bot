@@ -1,4 +1,4 @@
-const exuvia = require('../lyrics/exuvia/19_exuvia');
+const exuvia = require('../lyrics/exuvia');
 
 /**
  * Build the lyrics corpus
@@ -7,9 +7,7 @@ const exuvia = require('../lyrics/exuvia/19_exuvia');
 function buildCorpus() {
   return {
     albums: {
-      exuvia: {
-        exuvia,
-      },
+      exuvia
     },
   };
 };
