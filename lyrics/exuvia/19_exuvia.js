@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'exuvia',
+  title: 'Exuvia',
   lyrics: `È una notte che ispira
 È una notte che chiama nel bosco
 È una notte che spia

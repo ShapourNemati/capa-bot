@@ -1,4 +1,4 @@
-const exuvia = require('../lyrics/exuvia/exuvia');
+const exuvia = require('../lyrics/exuvia/19_exuvia');
 
 /**
  * Build the lyrics corpus
