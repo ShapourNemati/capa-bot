@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Fugadà',
-    lyrics: `Me ne vado per le strade strette, oscure e misteriose
+  title: 'Fugadà',
+  lyrics: `Me ne vado per le strade strette, oscure e misteriose
 Non c'è un cane, qualche stella nella notte fantasiosa
 Via dal tanfo
 Via dal tanfo
@@ -96,5 +96,5 @@ Sono in fuga da
 In fuga da, in fuga da, in fuga da
 Sale fumo dalla pira, ullallà
 Goditi la mia rovina, Yucatán
-Sono in fuga da`
-}
+Sono in fuga da`,
+};

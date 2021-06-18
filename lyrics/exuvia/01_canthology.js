@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Canthology',
-    lyrics: `Sono in un bad trip come quei tre kids di Fatima
+  title: 'Canthology',
+  lyrics: `Sono in un bad trip come quei tre kids di Fatima
 Vedo cose che neanche Roy Batty s'immagina
 Scrivo testi pop-up ed è 3D ogni pagina
 Tu la vedi rosea, sei Elvis in Cadillac
@@ -66,5 +66,5 @@ They're trying to get somewhere
 Get away (get away, get away, get away)
 Get away (get away, get away, get away)
 Get away (get away, get away, get away)
-Get away (get away, get away, get away)`
-}
+Get away (get away, get away, get away)`,
+};

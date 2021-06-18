@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'El Sendero',
-    lyrics: `Camina, guerrero, camina
+  title: 'El Sendero',
+  lyrics: `Camina, guerrero, camina
 Por el sendero del dolor
 Y la alegria
 Camina, guerrero, camina
@@ -77,5 +77,5 @@ Y la alegria
 Michi, sei Lazzaro, dai, alzati e (Camina)
 Camina, guerrero, camina
 Por el sendero del dolor
-Y la alegria`
-}
+Y la alegria`,
+};

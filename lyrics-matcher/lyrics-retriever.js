@@ -7,7 +7,7 @@ const exuvia = require('../lyrics/exuvia');
 function buildCorpus() {
   return {
     albums: {
-      exuvia
+      exuvia,
     },
   };
 };

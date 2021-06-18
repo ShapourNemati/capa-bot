@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Campione dei Novanta',
-    lyrics: `A scuola media, introverso
+  title: 'Campione dei Novanta',
+  lyrics: `A scuola media, introverso
 Mummia fuori, Narnia dentro
 Ogni docente era certo
 Che io fossi l'armadietto
@@ -102,5 +102,5 @@ Campione
 Chiamami, chiamami
 Campione
 Chiamami, chiamami "Campione"
-Chiamami, chiamami "Campione"`
-}
+Chiamami, chiamami "Campione"`,
+};
