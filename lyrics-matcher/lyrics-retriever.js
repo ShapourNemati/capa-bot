@@ -1,3 +1,4 @@
+const veritaSupposte = require('../lyrics/verita_supposte');
 const exuvia = require('../lyrics/exuvia');
 
 /**
@@ -7,6 +8,7 @@ const exuvia = require('../lyrics/exuvia');
 function buildCorpus() {
   return {
     albums: {
+      veritaSupposte,
       exuvia,
     },
   };
