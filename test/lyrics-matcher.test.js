@@ -28,3 +28,12 @@ tap.test('line correctly matched - capitalization not considered', (t) => {
   t.equal(result, expected);
   t.end();
 });
+
+tap.test('no line matches', (t) => {
+  const lyricsCorpus = lyricsRetriever();
+  const matcher = lyricsMatcher(lyricsCorpus);
+  const result = matcher('This text does not appear in any of Capa\'s songs');
+  const expected = '';
+  t.equal(result, expected);
+  t.end();
+});
